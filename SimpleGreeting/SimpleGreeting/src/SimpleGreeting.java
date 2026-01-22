@@ -1,0 +1,14 @@
+// https://www.w3schools.com/java/java_user_input.asp
+
+import java.util.Scanner;
+
+public class SimpleGreeting {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter your name: ");
+        String name = input.nextLine();
+
+        System.out.println("Hello, " + name + "!");
+    }
+}
